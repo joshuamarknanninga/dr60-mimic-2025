@@ -4,20 +4,19 @@
     "private": true,
     "type": "module",
     "scripts": {
-      "dev": "vite",
-      "build:sw": "workbox generateSW workbox.config.cjs",
-      "build": "vite build && npm run build:sw",
-      "preview": "vite preview"
+        "dev": "vite",
+        "build:sw": "workbox generateSW workbox.config.cjs",
+        "build": "vite build && npm run build:sw",
+        "preview": "vite preview"
     },
     "dependencies": {
-      "axios": "^1.7.3",
-      "react": "^18.3.1",
-      "react-dom": "^18.3.1"
+        "axios": "^1.9.0",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
     },
     "devDependencies": {
-      "@vitejs/plugin-react": "^4.2.1",
-      "vite": "^5.2.0",
-      "workbox-build": "^7.0.0"
+        "@vitejs/plugin-react": "^4.5.1",
+        "vite": "^5.4.19",
+        "workbox-build": "^7.3.0"
     }
-  }
-  
+}

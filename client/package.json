@@ -1,0 +1,23 @@
+{
+    "name": "dr60-mimic-client",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build:sw": "workbox generateSW workbox.config.cjs",
+      "build": "vite build && npm run build:sw",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "axios": "^1.7.3",
+      "react": "^18.3.1",
+      "react-dom": "^18.3.1"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-react": "^4.2.1",
+      "vite": "^5.2.0",
+      "workbox-build": "^7.0.0"
+    }
+  }
+  
